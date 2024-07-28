@@ -1,0 +1,56 @@
+.header {
+  width: 1052px;
+  height: 105px;
+  margin: 92px 24px 96px;
+  background-color: aqua;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.header__menu {
+  list-style-type: circle;
+}
+.header__menu-list {
+  list-style-type: circle;
+}
+
+.header__menu-ithem {
+  display: inline-block;
+}
+
+.header__menu-ithem__active {
+  
+}
+
+.header__menu-ithem .header__menu-ithem__active {
+
+}
+
+.header__menu-link {
+  
+}
+
+.header__logo {
+  width: 124.05px;
+  height: 94.84px;
+  top: 2.79px;
+  left: 11.39px;
+  gap: 0px;
+  border: 6px 0px 0px 0px;
+
+}
+
+.contacts {
+  
+}
+
+.block__adress {}
+
+.adress {}
+
+.number,
+.email {}
+
+.adress__ams {}
+
