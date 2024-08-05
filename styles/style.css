@@ -321,11 +321,10 @@ header {
   text-align: left;
   text-transform: uppercase;
   align-self: center;
-
 }
 
 .about__text {
-  padding-top: 5px; 
+  padding-top: 5px;
   padding-left: 25px;
   padding-right: 5px;
   grid-area: about__text;
@@ -399,7 +398,7 @@ letter-spacing: 0.03em;
   list-style: none;
 }
 
-.footer__menu { 
+.footer__menu {
   grid-area: footer__menu;
 }
 
