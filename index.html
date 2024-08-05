@@ -25,18 +25,15 @@
         </ul>
       </nav>
       <a class="header__logo" href="#0">
-        <img class="header__logo-image" src="../images/logo-black.svg" alt="логотип оно тебе надо черный на белом фоне">
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="логотип оно тебе надо черный на белом фоне">
       </a>
-      <address class="adress">
-        <ul class="header__adress">
-          <li class="adress__ithem">
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-            <br>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="adress ams__adress">наб. Принсенграхт 263- <br> 265, Амстердам</li>
-        </ul>
-      </address>
+      <div class="header__contacts">
+        <address class="adress">
+            <a class="adress__ithem" href="tel:+99995555555">+9 999 555 5555</a>
+            <a class="adress__ithem" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <p class="adress ams__adress">наб. Принсенграхт 263- <br> 265, Амстердам</p>
+        </address>
+      </div>
     </header>
     <main>
       <section class="cover">
@@ -47,7 +44,7 @@
             <span class="aligned-text_right"><span class="letter-spacing-extended">н</span><span class="aligned-text_right">ад</span><span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="cover__description">
-          <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section> 
@@ -81,33 +78,30 @@
                 </article>
               </a>
             </li>
-            <li>
-             <a class="lots__look-more-link" href="#0">посмотреть больше</a>
-           </li>
           </ul>
+          <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
-            <img class="about__logo-image" src="/images/logo-white.svg" alt="Белый логотип на черном фоне">
+            <img class="about__logo-image" src="../images/logo-white.svg" alt="Белый логотип на черном фоне">
           </div>
           <h2 class="about__title">Об аукционе</h2>
-          <p class="about__text about__text-one">Здесь вы не встретите очередное <span class="letter-zero">пафосное собрание невероятно дорогого антиквариата.</span> <span class="letter-two">Наши</span> лоты вообще не должны<span class="letter-minus-one"> были попасть</span> ни на один аукцион. Потому что кому нужен <span class="letter-three">дневник</span> девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-          <p class="about__text about__text-two"><span class="letter-zero">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то</span> они казались просто <span class="letter-zero">неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</span></p>
+          <div class="about__text">
+            <p class="about__text-indent">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+            <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__adress">
-        <ul class="footer__adress-ul">
-          <li class="adress__ithem">
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-            <br>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="adress ams__adress">наб. Принсенграхт 263- <br> 265, Амстердам</li>
-        </ul>
-      </address>
+      <div class="footer__contacts">
+        <address class="adress">
+          <a class="adress__ithem" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="adress__ithem" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p class="adress ams__adress">наб. Принсенграхт 263- <br> 265, Амстердам</p>
+        </address>
+      </div>
       <nav class="footer__menu">
         <ul class="footer__menu__list">
           <li class="footer__menu-ithem">
@@ -124,17 +118,17 @@
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="../images/yt.svg" alt="ссылка на ютуб">
+            <img class="footer__social-icon" src="./images/yt.svg" alt="ссылка на ютуб">
           </a>
         </li>
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="../images/vk.svg" alt="ссылка на вк">
+            <img class="footer__social-icon" src="./images/vk.svg" alt="ссылка на вк">
           </a>
         </li>
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="../images/pinterest.svg" alt="ссылка на пинтерест">
+            <img class="footer__social-icon" src="./images/pinterest.svg" alt="ссылка на пинтерест">
           </a>
         </li>
       </ul>
